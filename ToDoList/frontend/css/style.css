@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #172D13;
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+/*Navbar*/
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h2,
+  h3,
+  a {
+    color: #34495e;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 1.45em;
+  }
+  
+  .main-nav {
+    margin-top: 5px;
+  }
+  .logo a,
+  .main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: #172D13;
+    color: #f4f4f4;
+  }
+  
+  .main-nav a {
+    color: #f4f4f4;
+    font-size: 0.99em;
+  }
+  
+  .main-nav a:hover {
+    color: #718daa;
+  }
+  
+  .header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 1px solid #172D13;
+    background-color: #172D13;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  @media (min-width: 769px) {
+    .header,
+    .main-nav {
+      display: flex;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+      .header {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
+      }
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+/*Navbar*/
+
+/*Banner*/
+.Banner{
+    margin: 5%;
+    padding: 5px;
+}
+
+.banner{
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    background-color: #172D13;;
+}
+
+.banner .text{
+    text-align: center;
+    background-color: #172D13;;
+}
+
+.text p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    background-color: #172D13;;
+    color: #f4f4f4;
+}
+
+.text h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    background-color: #172D13;;
+    color: #f4f4f4;
+}
+/*Banner*/
+
+/*Content*/
+.content{
+    margin: 100px 0 100px 0;
+  }
+  
+.content-section {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 50px auto 50px auto; 
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #6BB77B;
+  }
+  
+#content-text {
+    margin: 10px;
+    text-align: center;
+    background-color: #6BB77B;
+    color: #172D13;
+  }
+
+.content-section .content-containerHome{
+    background-color: #6BB77B;
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #6BB77B;
+}
+
+.content-section li {
+    margin-bottom: 20px;
+    border: 1px solid #172D13;
+    padding: 10px;
+}
+
+/* Style the checkboxes */
+.content-section input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style the task names */
+.content-section label {
+    font-weight: bold;
+    color: #f4f4f4;
+}
+
+/* Style the deadline dates */
+.deadline {
+    color: #f4f4f4
+}
+
+/* Style the task descriptions */
+p {
+    margin: 10px 0;
+    color: #f4f4f4
+}
+
+
+/*Content*/
